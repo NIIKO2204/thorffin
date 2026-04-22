@@ -1,0 +1,26 @@
+body{height: 100vh;
+display: grid;
+margin: 0;
+grid-template-columns: 100%;
+grid-template-rows: 10% 75% 15% ;
+}
+
+body *{border: 1px solid black ;}
+
+
+#h1{text-align: center;
+color: red;
+background-color: black;}
+
+#sec1{display: flex;
+justify-content: space-evenly;}
+
+img{object-fit: cover;
+width:300px;}
+
+#img2{width: 300px;}
+
+
+footer{color: red;
+background-color: black;
+text-align: center;}
